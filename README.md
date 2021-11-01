@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Standard Deployment Bootcamp JCWD (Student)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Priority: High
+Target Date: October 26, 2021 11:03 AM
 
-## Available Scripts
+Student yang mengikuti final project bootcamp wajib mengikuti standard dan peraturan-peraturan yang sudah ditentukan di bawah ini.
 
-In the project directory, you can run:
+## Codebase
 
-### `yarn start`
+### Back End
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Gunakan file .env untuk hal-hal di bawah ini
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Username database
+- Password database
+- Nama database
+- Port
+- URL dari API sendiri (localhost atau sudah domain)
+- JWT Key
 
-### `yarn test`
+### Front End
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Buat sebuah folder bernama `constants` lalu sebuah file bernama `api.js` di dalam folder tersebut untuk menyimpan URL dari API project.
 
-### `yarn build`
+## Database
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Nama database** yang digunakan wajib mengikuti format ini: *nomorKelompok_spec*. 
+Contohnya: `1_parcel`, atau `2_pharmacy`, atau `3_warehouse`. Username dan password yang digunakan untuk database bebas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Port
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Port yang digunakan untuk back end wajib mengikuti format *20XX* dimana 'XX' adalah nomor kelompok kalian. Contohnya nomor kelompok kalian adalah **5**, maka port yang digunakan adalah 20**05.** Atau jika nomor kelompok kalian adalah 14, maka port yang digunakan adalah 20**14**.
 
-### `yarn eject`
+## Submission
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Setelah pull request ditutup, student wajib mengumpulkan hal-hal di bawah ini paling lambat pukul 20:00 1 Hari setelah pull request ditutup. Jadi jika pull request ditutup pada hari selasa pukul 23:59, student harus mengumpulkan hal-hal di bawah ini paling lambat hari rabu pukul 20:00.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Hal-hal yang perlu dikumpulkan di antaranya adalah:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. File SQL pembuatan schema (table) dan data
+2. Username dan password end-user
+3. Username dan password admin
