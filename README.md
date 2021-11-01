@@ -1,8 +1,5 @@
 # Standard Deployment Bootcamp JCWD (Student)
 
-Priority: High
-Target Date: October 26, 2021 11:03 AM
-
 Student yang mengikuti final project bootcamp wajib mengikuti standard dan peraturan-peraturan yang sudah ditentukan di bawah ini.
 
 ## Codebase
